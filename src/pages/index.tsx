@@ -68,7 +68,7 @@ const IndexPage: NextPage<IndexPageProps> = ({ initialCatImageUrl }) => {
                     padding: "4px 8px"
                 }}
             >
-                きょうのにゃんこ😺
+                Click meow!😺
             </button>
             <div style={{ marginTop: 8}}>
                 <img src={catImageUrl} width={500} height="auto" />
