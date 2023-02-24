@@ -5,7 +5,7 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 92:
+/***/ 90:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -46,7 +46,7 @@ const fetchCatImage = async ()=>{
 //     console.log(`猫の画像: ${image.url}`);  // シングルクォーテーションではなく、バッククォートを使用する
 // });
 const IndexPage = ({ initialCatImageUrl  })=>{
-    const [catImageUrl, setCatImageUrl] = (0,external_react_.useState)(initialCatImageUrl);
+    const { 0: catImageUrl , 1: setCatImageUrl  } = (0,external_react_.useState)(initialCatImageUrl);
     // const [catImageUrl, setCatImageUrl] = useState(
     //     "https://cdn2.thecatapi.com/images/bpc.jpg"
     // );
@@ -100,7 +100,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(92));
+var __webpack_exports__ = (__webpack_exec__(90));
 module.exports = __webpack_exports__;
 
 })();
