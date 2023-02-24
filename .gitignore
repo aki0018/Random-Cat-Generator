@@ -1,1 +1,11 @@
+# TypeScript
+*.tsbuildinfo
+*.js
+*.d.ts
+
+# Next.js
+.next
+out
+
+# Node modules
 node_modules
